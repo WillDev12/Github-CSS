@@ -40,7 +40,7 @@ The stylesheet itself provides many preset structures that can be edited fast an
 
 ## Built With
 
-This project is built with Javascript, Jquery, and CSS.
+This project is built with Javascript, jQuery, and CSS.
 
 ### Installation
 
