@@ -1,5 +1,7 @@
 var w = $(window).width();
 
+$(".gh-text-shadow").css({"background-color": "#343942", "border-radius": "6px", "width": "fit-content", "padding": "4px", "font-family": "ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace", "font-size": "13px", "margin": "none"});
+
 $(".gh-cell, .gh-cell-head, .gh-cell-div").css({"color": "white"});
 
 $(".gh-cell-div").css({"border-radius": "10px", "padding": "1em"});
@@ -16,7 +18,7 @@ $(".gh-icon-button").hover(function() {
   $(this).css({"background": "transparent"})
 });
 
-$(".gh-bar-button").wrap(`<div style="padding-top: 8px; padding-bottom: 8px; margin-right: 8px;"></div>`);
+$(".gh-bar-button").wrap(`<div style="padding-top: 8px; padding-bottom: 8px; margin-right: 8px; width: fit-content;"></div>`);
 $(".gh-bar-button").css({"border": "none", "background": "transparent", "color": "white", "user-select": "none", "padding": "0.5em"});
 $(".gh-bar-button").hover(function(){
   $(this).css({"background-color": "#171B20", "border-radius": "6px"});
@@ -116,15 +118,9 @@ $(".gh-blue-hover").hover(function() {
   $(this).css({"border-color": "#21262D"});
 })
 
-$(".gh-bluecolor-hover").hover(function() {
-  $(this).css({"color": "#388bfd"});
-}, function() {
-  $(this).css({"color": "#21262D"});
-})
-
 $(".gh-gray-2").css({"background-color": "#161B22"});
 $(".gh-gray").css({"background-color": "#0D1117"});
 $(".gh-black").css({"background-color": "#010409"});
 $(".body").css({"height": "100%", "width": "100%", "margin": "none", "position": "absolute", "top": "0px"});
 
-document.head.innerHTML += "<style>*{font-family: sans-serif}body{background-color:#010409}::placeholder{color: #6E7681}html,body{height: 100vh;margin: 0;padding: 0;}</style>";
+document.head.innerHTML += "<style>*{font-family: sans-serif}body{background-color:#010409}::placeholder{color: #6E7681}html,body{height: 100vh;margin: 0;padding: 0;}*:not(body) {overflow: hidden;overflow-y:auto }::-webkit-scrollbar {display: none;}</style>";
