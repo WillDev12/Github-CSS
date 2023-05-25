@@ -10,10 +10,7 @@
     A stylized Github stylesheet to help you make websites!
     <br/>
     <br/>
-    <a href="https://github.com/WillDev12/Github-CSS"><strong>Explore the docs »</strong></a>
-    <br/>
-    <br/>
-    <a href="https://github.com/WillDev12/Github-CSS">View Demo</a>
+    <a href="https://github.com/WillDev12/Github-CSS/preview/pr.html">View Demo</a>
     .
     <a href="https://github.com/WillDev12/Github-CSS/issues">Report Bug</a>
     .
