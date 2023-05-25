@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="https://kit.fontawesome.com/4b9ba14b0f.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" type="text/javascript"></script>
     <style>
       body {
@@ -11,14 +12,27 @@
         vertical-align: middle;
         text-align: center;
       }
+      * {
+        user-select: none;
+      }
     </style>
   </head>
   <body class="gh-gray">
-    <div class="gh-card">
-      <h1>GitCSS v1.0.0</h1>
-      <p>by <a href="https://WillDev12.github.io">WillDev12</a> on <a href="https://github.com/WillDev12/Github-CSS">Github</a></p>
-      <div class="flex">
-        <input type="text" class="gh-input" style="margin: 6px;">
+    <div style="position: relative;">
+      <button class="gh-card" style="position: absolute; top: 32px; left: 0px;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Octicons-git-branch.svg/1280px-Octicons-git-branch.svg.png" alt="Code Icon Free Download - Github Fork Icon Png, Transparent Png@kindpng.com" style="width: 18px; height: 28px;">
+      </button>
+      <div class="gh-card" style="margin: 16px;">
+        <h1>GitCSS v1.0.0</h1>
+        <p style="margin-bottom: 32px;">by <a href="https://WillDev12.github.io">WillDev12</a> on <a href="https://github.com/WillDev12/Github-CSS">Github</a></p>
+        <div class="gh-card gh-blue-hover">
+          <div class="flex">
+            <textarea class="gh-input" style="margin: 6px; resize: none; height: 16px; width: 300px;"><script src="https://WillDev12.github.io/Github-CSS/release/git.css-1.0.0.js"></script></textarea>
+            <button class="gh-new" style="height: 30px; margin: 5px; width: 68px;">
+              Copy
+            </button>
+          </div>
+        </div>
       </div>
     </div>
     <script src="./release/git.css-1.0.0.js"></script>
