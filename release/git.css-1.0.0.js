@@ -123,4 +123,4 @@ $(".gh-gray").css({"background-color": "#0D1117"});
 $(".gh-black").css({"background-color": "#010409"});
 $(".body").css({"height": "100%", "width": "100%", "margin": "none", "position": "absolute", "top": "0px"});
 
-document.head.innerHTML += "<style>*{font-family: sans-serif}body{background-color:#010409}::placeholder{color: #6E7681}html,body{height: 100vh;margin: 0;padding: 0;}*:not(body) {overflow: hidden;overflow-y:auto }::-webkit-scrollbar {display: none;}</style>";
+document.head.innerHTML += "<style>*{font-family: sans-serif; color: white;}body{background-color:#010409}::placeholder{color: #6E7681}html,body{height: 100vh;margin: 0;padding: 0;}*:not(body) {overflow: hidden;overflow-y:auto }::-webkit-scrollbar {display: none;}</style>";
