@@ -1,8 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="https://kit.fontawesome.com/4b9ba14b0f.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js" type="text/javascript"></script>
+    <title>GitCSS - Landing page</title>
+    <script
+      src="https://kit.fontawesome.com/4b9ba14b0f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      type="text/javascript"
+    ></script>
+    <link
+      rel="icon"
+      type="img/png"
+      href="https://camo.githubusercontent.com/bd482bcaf833fc786aa965a1d562e6674e8b9920748d64d9e3b0d513c230da05/68747470733a2f2f63646e2e69636f6e2d69636f6e732e636f6d2f69636f6e73322f323335312f504e472f3531322f6c6f676f5f6769746875625f69636f6e5f3134333139362e706e67"
+    />
     <style>
       body {
         display: flex;
@@ -18,23 +30,47 @@
     </style>
   </head>
   <body class="gh-gray">
-    <div style="position: relative;">
-      <button class="gh-card" style="position: absolute; top: 32px; left: 0px;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Octicons-git-branch.svg/1280px-Octicons-git-branch.svg.png" alt="Code Icon Free Download - Github Fork Icon Png, Transparent Png@kindpng.com" style="width: 18px; height: 28px;">
+    <div style="position: relative">
+      <button class="gh-card" style="position: absolute; top: 32px; left: 0px">
+        <img
+          class="fa-spin"
+          onclick="window.open('https://WillDev12.github.io');"
+          src="https://avatars.githubusercontent.com/u/93289932?s=64&v=4"
+          alt="Code Icon Free Download - Github Fork Icon Png, Transparent Png@kindpng.com"
+          style="width: 32px; height: 32px"
+        />
       </button>
-      <div class="gh-card" style="margin: 16px;">
+      <div class="gh-card" style="margin: 16px">
         <h1>GitCSS v1.0.0</h1>
-        <p style="margin-bottom: 32px;">by <a href="https://WillDev12.github.io">WillDev12</a> on <a href="https://github.com/WillDev12/Github-CSS">Github</a></p>
-        <div class="gh-card gh-blue-hover">
+        <p style="margin-bottom: 32px">
+          by <a href="https://WillDev12.github.io">WillDev12</a> on
+          <a href="https://github.com/WillDev12/Github-CSS">Github</a>
+        </p>
+        <div class="gh-card">
           <div class="flex">
-            <textarea class="gh-input" style="margin: 6px; resize: none; height: 16px; width: 300px;"><script src="https://WillDev12.github.io/Github-CSS/release/git.css-1.0.0.js"></script></textarea>
-            <button class="gh-new" style="height: 30px; margin: 5px; width: 68px;">
+            <textarea
+              class="gh-input"
+              id="tetbox"
+              style="margin: 6px; resize: none; height: 16px; width: 300px"
+            >
+<script src="https://WillDev12.github.io/Github-CSS/release/git.css-1.0.0.js"></script></textarea
+            >
+            <button
+              onclick="copyText()"
+              class="gh-new"
+              style="height: 30px; margin: 5px; width: 68px"
+            >
               Copy
             </button>
           </div>
         </div>
       </div>
     </div>
+    <script>
+      function copyText() {
+        navigator.clipboard.writeText(`<script src="https://WillDev12.github.io/Github-CSS/release/git.css-1.0.0.js"></script>`);
+      }
+    </script>
     <script src="./release/git.css-1.0.0.js"></script>
   </body>
 </html>
