@@ -1,0 +1,1 @@
+function copyText() {navigator.clipboard.writeText(`<script src="https://WillDev12.github.io/Github-CSS/release/git.css-1.0.0.js"></script>`);}
